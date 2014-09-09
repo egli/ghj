@@ -18,25 +18,26 @@ interface to the Github API in an afternoon :-).
 
 ## Installation
 
-Download from http://example.com/FIXME.
+Use `lein bin` to install.
 
 ## Usage
 
-FIXME: explanation
-
-    $ java -jar gh-clj-0.1.0-standalone.jar [args]
+	$ gh-clj [options] subcommand
 
 ## Options
 
-FIXME: listing of options this app accepts.
+See usage, i.e.
+
+	$ gh-clj --help
 
 ## Examples
 
-...
+	$ gh-clj --user=liblouis --repo=liblouis issues
+	$ gh-clj --user=egli repos
 
 ### Bugs
 
-...
+- Currently auth is not supported
 
 ## License
 
