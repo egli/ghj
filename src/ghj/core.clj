@@ -1,4 +1,4 @@
-(ns gh-clj.core
+(ns ghj.core
   (:require [clojure.tools.cli :refer [parse-opts]]
             [clojure.string :as string]
             [tentacles.issues :as issues]

@@ -1,4 +1,4 @@
-# gh-clj
+# ghj
 
 A command line interface to the Github API
 
@@ -22,18 +22,18 @@ Use `lein bin` to install.
 
 ## Usage
 
-	$ gh-clj [options] subcommand
+	$ ghj [options] subcommand
 
 ## Options
 
 See usage, i.e.
 
-	$ gh-clj --help
+	$ ghj --help
 
 ## Examples
 
-	$ gh-clj --user=liblouis --repo=liblouis issues
-	$ gh-clj --user=egli repos
+	$ ghj --user=liblouis --repo=liblouis issues
+	$ ghj --user=egli repos
 
 ### Bugs
 

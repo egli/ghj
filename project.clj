@@ -1,4 +1,4 @@
-(defproject gh-clj "0.1.0-SNAPSHOT"
+(defproject ghj "0.1.0-SNAPSHOT"
   :description "A command line interface to the Github API"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
@@ -7,8 +7,8 @@
                  [org.clojure/tools.cli "0.3.1"]
                  [tentacles "0.2.5"]]
   :plugins [[lein-bin "0.3.4"]]
-  :bin {:name "gh-clj"
+  :bin {:name "ghj"
         :bin-path "~/bin"}
-  :main ^:skip-aot gh-clj.core
+  :main ^:skip-aot ghj.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
