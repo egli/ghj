@@ -44,6 +44,7 @@
    (->> (issues/issues user repo)
         (map (juxt :number :title (comp :login :user) :comments))
         (sort-by first)
+        (map #(string/join "," %))
         (string/join \newline))))
 
 (defn user-repos [user]
